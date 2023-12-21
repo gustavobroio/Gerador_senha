@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <title>Gerador de Senhas</title>
+<<<<<<< HEAD
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Inter:wght@400;600&display=swap"
@@ -57,6 +58,27 @@
     <script>
 
 
+=======
+</head>
+
+<body>
+
+    <h1> Gerador de senha </h1>
+    <p> Utilize o nosso gerador online para criar uma senha forte e segura. </p>
+
+    <input type="text" name="password" id="password">
+
+    <input type="range"
+    name="password-length" 
+    id="password-length" 
+    value="16" 
+    min="4" m
+    ax="64">
+
+    <button id="copy" > Copiar senha </button>
+
+    <script>
+>>>>>>> e74c83010058d43930b9a60072aa5555aa73571b
         const inputEl = document.querySelector("#password")
         let passwordLength = 16
 
@@ -72,6 +94,7 @@
                 password += chars.substring(randomNumber, randomNumber + 1)
             }
 
+<<<<<<< HEAD
 
             inputEl.value = (password)
         }
@@ -81,6 +104,17 @@
         }
         document.querySelector("#copy-1").addEventListener("click", copy)
         document.querySelector("#copy-2").addEventListener("click", copy)
+=======
+            
+            inputEl.value = (password)
+        }
+
+        function copy(){
+            navigator.clipboard.writeText(inputEl.value)
+        }
+        const copyButtonEl = document.querySelector("#copy")
+        copyButtonEl.addEventListener("click", copy)
+>>>>>>> e74c83010058d43930b9a60072aa5555aa73571b
 
 
 

@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: #949494;
   font-family: "Inter", sans- serif;
   color: #252525;
@@ -97,3 +98,11 @@ main {
 .security-indicator .bar.safe{
   background-color: green;
 }
+=======
+    background-color: #f8fafd;
+    font-family: "Inter", sans- serif;
+    color: #252525;
+    padding: 2rem;
+  }
+  
+>>>>>>> e74c83010058d43930b9a60072aa5555aa73571b
