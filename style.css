@@ -1,5 +1,5 @@
 body {
-  background-color: #b5b0b0;
+  background-color: #e4e4e4;
   font-family: "Inter", sans- serif;
   color: #252525;
   padding: 2rem;
@@ -143,14 +143,14 @@ main {
   width: 20px;
   height: 20px;
   border-radius: 20px;
-  background: #9b51e0;
+  background: rgb(255, 72, 72);
   cursor: pointer;
 }
 .customize .password-lenght .slider::-moz-range-thumb{
   width: 25px;
   height: 25px;
   border-radius: 25px;
-  background: #9b51e0;
+  background: rgb(255, 72, 72);
   cursor: pointer;
 
 }
@@ -159,7 +159,7 @@ main {
   display: block;
   position: relative;
   cursor: pointer;
-  padding-left:  1rem;
+  padding-left:  2rem;
   margin-bottom: 1rem;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -188,7 +188,7 @@ main {
   background-color: #cccccc;
 }
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #9b51e0;
+  background-color: rgb(255, 72, 72);
 }
 .checkbox-container .checkmark:after {
   content: "";
@@ -204,4 +204,22 @@ main {
 }
 .checkbox-container input:checked ~ .checkmark:after {
   display: block;
+}
+
+.submit{
+  text-align:  center;
+}
+.submit button{
+  background-color: rgb(255, 72, 72);
+  font-size: 1.375rem;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  transition: all 0.2s;
+}
+
+.submit button:hover{
+  background-color: red;
 }
